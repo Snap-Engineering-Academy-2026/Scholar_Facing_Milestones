@@ -171,7 +171,7 @@ Crazy! Here are [some more examples of `.map()` and arrow functions](https://dev
 
 ## 4 - Practice .map() and arrow functions
 
-Last week, we gave you this problem to work on, make sure you've finished it!
+Let's practice one more time!
 
 [Normalize Name Capitalization](https://www.codewars.com/kata/6853343412b719df2f717a6e)
 
