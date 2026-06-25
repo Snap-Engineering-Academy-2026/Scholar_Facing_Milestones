@@ -24,7 +24,7 @@ Much like in the previous Milestone, there is an `onChange` prop that you can ad
 We will use "handler" functions just like before to handle the change. Below is an example of text input implemented with a `handleName` function.
 
 ```jsx
-export default function Form(){
+export default function App(){
   const [fullName, setFullName] = useState("");
 
   const handleName = (e) => {
@@ -67,7 +67,7 @@ handler function and state
 
 ## 2 - Handling Multiple Inputs (One state / One Handler)
 ```jsx
-export default function Form(){
+export default function App(){
   const [values, setValues] = useState({ fullName: "", quantity: "" });
 
   const handleChange = (e) => {
@@ -237,7 +237,7 @@ if you are having any issues with errors. Also below is the image of what your b
     return errors
   }
 
-  export default function Form(){
+  export default function App(){
     const [values, setValues] = useState({ fullName: "", quantity: "" });
     const [errors, setErrors] = useState({});
 
