@@ -199,7 +199,9 @@ const handleSubmit = () => {
 > `helperText` prop takes a string to display a message below the input, in this case it is used display the validation message
 
 Below you will find the complete component with all the additions we made during the milestone. Take a look
-if you are having any issues with errors.
+if you are having any issues with errors. Also below is the image of what your browser should look like when your errors show up.
+
+<img width="1918" height="479" alt="validation_errors" src="https://github.com/user-attachments/assets/a85e8510-736d-4608-a92d-d4b6d28514bf" />
 
 <details>
   <summary>Training Wheels / Full Component</summary>
