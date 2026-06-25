@@ -1,6 +1,20 @@
 # Forms and Validations
 
 In this milestone, we are going to learn how to handle different types of form inputs and handle validation for those inputs.
+You are going to be creating a brand new React project, so think back to when we first created our React project.
+<br />
+`npm create vite@latest`
+
+For this project you are going to be deleting everything inside the App.jsx, your App.jsx should look like below to start.
+```jsx
+export default function App() {
+  return (
+    <>
+      
+    </>
+  );
+}
+```
 
 <br/>
 
