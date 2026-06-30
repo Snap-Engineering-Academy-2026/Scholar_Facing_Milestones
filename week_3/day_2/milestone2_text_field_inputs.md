@@ -117,7 +117,7 @@ import Button from "@mui/material/Button";
 import { useState } from "react";
 
 function App() {
-  const [funFact, setfunFact] = useState("");
+  const [userInput, setUserInput] = useState("");
 
   const searchDogFunFact = () => {
     fetch(`https://dogapi.dog/api/v1/facts?number=2`)
@@ -132,7 +132,7 @@ function App() {
       <TextField
         label="Search"
         value={""}
-        onChange={(event) => setfunFact(event.target.value)}
+        onChange={(event) => setUserInput(event.target.value)}
       />
       {/* Add a button to your page, here the button will trigger the fetch */}
       <Button onClick={searchDogFunFact}>Search</Button>
