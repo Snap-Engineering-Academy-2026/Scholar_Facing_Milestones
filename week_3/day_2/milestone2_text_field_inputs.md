@@ -120,6 +120,7 @@ function App() {
   const [userInput, setUserInput] = useState("");
 
   const searchDogFunFact = () => {
+//you will need to make this endpoint dynamic aka take the user input
     fetch(`https://dogapi.dog/api/v1/facts?number=2`)
       .then()
       .then(PLEASE LOG YOUR DATA HERE)
