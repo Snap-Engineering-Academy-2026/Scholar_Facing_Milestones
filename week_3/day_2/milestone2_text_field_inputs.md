@@ -41,7 +41,7 @@ import TextField from "@mui/material/TextField";
 ```jsx
 import React from "react";
 
-export default function app() {
+export default function App() {
   return (
     <TextField
       id="outlined-controlled"
@@ -120,7 +120,7 @@ function App() {
   const [funFact, setfunFact] = useState("");
 
   const searchDogFunFact = () => {
-    fetch(`API HERE`)
+    fetch(`https://dogapi.dog/api/v1/facts?number=2`)
       .then()
       .then(PLEASE LOG YOUR DATA HERE)
       // this error function is pretty standard so I will leave this here
