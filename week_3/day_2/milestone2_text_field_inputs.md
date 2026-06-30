@@ -39,14 +39,21 @@ import TextField from "@mui/material/TextField";
 2. Now, let's place the `<TextField>` component in our JSX (This is copied from the MUI docs)
 
 ```jsx
-<TextField
-  id="outlined-controlled"
-  label="Name"
-  value={""}
-  onChange={(event) => {
-    // empty for now
-  }}
-/>
+import React from "react";
+
+export default function app() {
+  return (
+    <TextField
+      id="outlined-controlled"
+      label="Name"
+      value={""}
+      onChange={(event) => {
+        // empty for now
+      }}
+    />
+  );
+}
+
 ```
 
 3. Check that the TextField appears on your page where you want it to go.
