@@ -102,7 +102,7 @@ Using JSX we can make this endpoint more readable:
 
 Sample Result - https://openlibrary.org/search.json?q=cat+in+the+hat&limit=10&fields=title
 
-At this point, the code is incomplete, we haven't finished chaining our promise! We need to handle our promise state - look back at the slide if you a little lost here. I'll drop these hints to help get you started. Fill out the items needed to make this code run!
+At this point, the code is incomplete, we haven't finished chaining our promise! We need to handle our promise state - look back at the slide if you a little lost here. I'll drop these hints to help get you started. Replace your `aap.js` with the code below. Fill out the items needed to make this code run!
 
 ```js
 import TextField from "@mui/material/TextField";
