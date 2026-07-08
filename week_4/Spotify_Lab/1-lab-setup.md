@@ -33,7 +33,7 @@ npx expo start
 5. Next, we're going to grab some starter code. There are a number of commands to run for this step, with brief explanations below each one.  
 
 ```
-gh repo clone Snap-Engineering-Academy-2025/starter-spotify-navigation-lab temp-spotify-starter-code
+gh repo clone Snap-Engineering-Academy-2026/starter_spotify_lab temp-spotify-starter-code
 ```
 _Download a "temp" copy of a github repository with the files we want. We don't want all of the files though, just some specific ones._
 ```
