@@ -7,6 +7,9 @@ Wrap everything returned in Song.js in a `<Pressable>`, put a console.log in the
 
 Well, we want onPress to navigate us to a SongScreen that displays details about that Song. To figure this out, we’ll look at React Navigation’s docs for “Moving Between Screens.” One way to trigger a navigation would be to press on a button like the example code uses with an onPress function (the same way Pressable works!). From the documentation, we can see this example:
 ```jsx
+// ADD IMPORTS!!
+import { useNavigation } from '@react-navigation/native';
+
 function HomeScreen({ navigation }) {
 
   return (
