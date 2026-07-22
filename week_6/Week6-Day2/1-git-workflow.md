@@ -22,7 +22,7 @@ As you start adding your code to the project individually, you will eventually s
 ### A - Add and Commit your changes locally
 
 ```bash
-git add .
+git add YOUR_FILE_NAME
 git commit -m "commit message"
 ```
 
